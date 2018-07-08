@@ -1,0 +1,292 @@
+body {
+  margin: 0px;
+  font-family: sans-serif;
+  color:white;
+
+}
+
+header {
+  background-image: url("../images/header-background.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+}
+
+header li {
+  display: inline-block;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+
+nav ul {
+  margin-top: 0px;
+  font-size: 0.9em;
+  padding: 0;
+}
+
+nav ul li {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+nav a:hover{
+  color:orange;
+}
+
+#header-content{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  height:70vh;
+}
+#header-content h1{
+  display: inline-block;
+  font-size: 6em;
+  margin-bottom: 40px;
+}
+#header-content p{
+  width: 50%;
+  display: inline-block;
+  font-size: 1.5em;
+  text-align: center;
+  font-family:serif;
+  color: #A8A8A8;
+  line-height: 1.6em;
+  margin: 0;
+}
+
+.white-text{
+  color: white;
+}
+
+hr{
+  width: 50%;
+  border-color: #9696961a;
+}
+
+#header-content .social-icons ul li img{
+  margin-left: 15px;
+  margin-right: 15px;
+  filter: brightness(5);
+}
+
+#ABOUT {
+  background-color: #2b2b2b;
+  height: 60vh;
+  display: flex;
+  justify-content:center;
+  padding-top: 60px;
+
+}
+
+#ABOUT p{
+  color:#7A7A7A;
+  line-height: 1.6em;
+}
+
+.lhs {
+  height: 100%
+  width: 40%;
+}
+.rhs{
+
+  height: 100%;
+  width: 50%;
+
+}
+
+
+#ABOUT img {
+border-radius: 50%;
+width: 120px;
+height: 120px;
+margin-right: 90px;
+}
+
+#about-row{
+  display: flex;
+  align-items:center;
+  justify-content: flex-start;
+}
+#contact-details{
+  margin-right: 50px;
+}
+#download{
+  background-color: #444;
+  width: 172px;
+  height: 53px;
+  text-align: center;
+  border-radius: 5%;
+}
+
+#RESUME{
+  color: black;
+  font-family:sans-serif;
+}
+
+#RESUME p{
+  color: #7a7a7a;
+  line-height: 1.6em;
+}
+
+.italics{
+  font-style: italic;
+  font-family: serif;
+  font-size: 22px;
+}
+#resume-education{
+  display:flex;
+  justify-content: center;
+  height: 50vh;
+  padding-top: 15px;
+}
+
+#resume-work{
+  display:flex;
+  justify-content: center;
+  height: 50vh;
+}
+
+#resume-skills{
+  display:flex;
+  justify-content: center;
+  height: 60vh;
+}
+
+#RESUME  h2{
+  padding-right: 80px;
+  text-decoration: underline;
+}
+#RESUME h3{
+  margin:0;
+}
+.background{
+  height: 30px;
+  width: 30vw;
+  background-color: grey;
+  display:inline-block;
+  border-radius: 10px;
+}
+
+#seventy{
+  background-color: black;
+  width: 70%;
+  height: 100%;
+  border-radius: 10px;
+}
+#sixty{
+  background-color: black;
+  width: 60%;
+  height: 100%;
+  border-radius: 10px;
+}
+#eighty{
+  background-color: black;
+  width: 80%;
+  height: 100%;
+  border-radius: 10px;
+}
+#fifty{
+  background-color: black;
+  width: 50%;
+  height: 100%;
+  border-radius: 10px;
+}
+#WORKS{
+  height: 75vh;
+  background-color: #ebeeee;
+  text-align: center;
+  padding-top: 45px;
+}
+
+#WORKS h1{
+  color: #95a3a3;
+}
+
+#portfolio{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#portfolio img{
+  height: 19em;
+  margin: 10px
+}
+
+#host{
+  height: 25vh;
+  background-color: #212121;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.6em;
+  margin-left: -230px;
+}
+
+#host_content{
+  width: 35%;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+#host_content h1{
+  font-size: 2em;
+  margin: 0;
+}
+
+#host_content p{
+  font-size: 1.1em;
+  line-height: 1.6em;
+}
+
+#sign_up a{
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  background: #11abb0;
+  padding-top: 12px;
+  padding-right: 20px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  border-radius: 4%
+
+}
+.grey_text{
+  color:#636363;
+}
+#TESTIMONIALS{
+  height: 40vh;
+  background-image: url(../images/testimonials-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: space-around;
+  font-style: italic;
+  font-family: serif;
+  padding-top: 40px
+
+}
+
+#TESTIMONIALS p{
+  margin: 0;
+  width: 40%;
+  font-size: 1.8em;
+  line-height: 1.8em;
+}
+
+#FORM{
+  height: 125vh;
+  background-color: #212121;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.6em;
+}
